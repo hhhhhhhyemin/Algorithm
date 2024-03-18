@@ -1,0 +1,5 @@
+N, k = map(int, input().split())
+score = map(int, input().split())
+score = list(score)
+score.sort()
+print(score[-k])
